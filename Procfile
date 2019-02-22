@@ -1,0 +1,1 @@
+web: gunicorn sinagtest.wsgi --log-file -
