@@ -1,1 +1,1 @@
-web: gunicorn sinagtest.wsgi --log-file -
+web: gunicorn newspaper.wsgi --log-file -
