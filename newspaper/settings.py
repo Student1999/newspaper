@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '15h=s*k9n$acoguajtfx-@jws7x+g&^kn$*^!be@dib_&u(m5t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['ide50-agayevzakir.legacy.cs50.io','newspaperbaku.herokuapp.com']
 
