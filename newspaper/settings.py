@@ -26,7 +26,7 @@ SECRET_KEY = '15h=s*k9n$acoguajtfx-@jws7x+g&^kn$*^!be@dib_&u(m5t'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ide50-agayevzakir.legacy.cs50.io']
+ALLOWED_HOSTS = ['ide50-agayevzakir.legacy.cs50.io','newspaperbaku.herokuapp.com']
 
 
 # Application definition
@@ -127,6 +127,6 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'news/static'),
 )
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')#added for production
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')#added for production
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 #"""
